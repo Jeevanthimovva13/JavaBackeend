@@ -9,6 +9,7 @@ abstract class Bird{
     String hands;
 
     void eat(){};
+    void drink(){};
     abstract void fly();
 
 }
