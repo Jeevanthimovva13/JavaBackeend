@@ -6,6 +6,7 @@ import java.util.List;
 abstract class Bird{
     String color;
     String legs;
+    String hands;
 
     void eat(){};
     abstract void fly();
@@ -40,7 +41,7 @@ public class Main {
         bird.fly();
         System.out.println("Hello world!");
 
-       
+
 
     }
 }
